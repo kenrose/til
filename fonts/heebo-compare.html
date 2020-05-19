@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      @font-face {
+          font-family: 'HeeboV6';
+          font-style: normal;
+          font-weight: 300;
+          font-display: swap;
+          src: url(https://fonts.gstatic.com/s/heebo/v6/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysdUmj.ttf) format('truetype');
+      }
+      @font-face {
+          font-family: 'HeeboV7';
+          font-style: normal;
+          font-weight: 300;
+          font-display: swap;
+          src: url(https://fonts.gstatic.com/s/heebo/v7/NGS3v5_NC0k9P9ldb6RMkKs.ttf) format('truetype');
+      }
+
+      .v7 { font-family: 'HeeboV7'; }
+      .v6 { font-family: 'HeeboV6'; }
+      .big { font-size:36px; }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Broken Heebo v6</h1>
+    <div class="big v6">
+      <p>Veni, vidi, vici</p>
+      <p>c followed by cedilla: c&cedil;</p>
+      <p>Actual &ccedil;</p>
+    </div>
+    <h1>Fixed Heebo v7</h1>
+    <div class="big v7">
+      <p>Veni, vidi, vici</p>
+      <p>c followed by cedilla: c&cedil;</p>
+      <p>Actual &ccedil;</p>
+    </div>
+  </body>
+</html>
